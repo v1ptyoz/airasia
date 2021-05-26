@@ -9,7 +9,7 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <img src="img/logo.png" alt="" class="logo">
+            <img src="img/logo.png" alt="Logo" class="logo">
             <nav class="nav">
                 <ul class="main-nav">
                     <li class="main-nav__item">
@@ -22,11 +22,11 @@
                         <a href="#" class="main-nav__link">Отзывы</a>
                     </li>
                 </ul>
-                <a href="tel:88007003030">8 800 700 30 30</a>
+                <a href="tel:88007003030" class="phone">8 800 700 30 30</a>
                 <a href="#">График работы</a>
                 <div class="shedule">
-                    <p><strong>пн-вс: 09:00 - 20:00</strong></p>
-                    <p>Обед: 14:00 - 14:30</p>
+                    <p class="shedule__text"><strong>пн-вс: 09:00 - 20:00</strong></p>
+                    <p class="shedule__text">Обед: 14:00 - 14:30</p>
                 </div>
             </nav>
         </header>
@@ -44,7 +44,7 @@
                 <h2 class="section__title">Горящие туры</h2>
                 <div class="tours">
                     <div class="tour">
-                        <img src="" alt="" class="tour__img">
+                        <img src="img/placeholder.png" alt="Tour background image" class="tour__img">
                         <h3 class="tour__name">Тайланд</h3>
                         <div class="tour__options">
                             <span class="nights">7 - 12 ночей</span>
@@ -53,10 +53,10 @@
                         <p class="tour__description">
                             Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
                         </p>
-                        <a href="#" class="btn tour__btn">Смотреть</a>
+                        <a href="#" class="btn btn--small btn--outline">Смотреть</a>
                     </div>
                     <div class="tour">
-                        <img src="" alt="" class="tour__img">
+                        <img src="img/placeholder.png" alt="Tour background image" class="tour__img">
                         <h3 class="tour__name">Бали</h3>
                         <div class="tour__options">
                             <span class="nights">7 - 12 ночей</span>
@@ -65,10 +65,10 @@
                         <p class="tour__description">
                             Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
                         </p>
-                        <a href="#" class="btn tour__btn">Смотреть</a>
+                        <a href="#" class="btn btn--small btn--outline">Смотреть</a>
                     </div>
                     <div class="tour">
-                        <img src="" alt="" class="tour__img">
+                        <img src="img/placeholder.png" alt="Tour background image" class="tour__img">
                         <h3 class="tour__name">Индонезия</h3>
                         <div class="tour__options">
                             <span class="nights">7 - 12 ночей</span>
@@ -77,7 +77,7 @@
                         <p class="tour__description">
                             Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.
                         </p>
-                        <a href="#" class="btn tour__btn">Смотреть</a>
+                        <a href="#" class="btn btn--small btn--outline">Смотреть</a>
                     </div>
                 </div>
             </section>
@@ -86,18 +86,22 @@
             <section class="section news">
                 <h2 class="section__title">Новости и акции</h2>
                 <div class="news__page">
-                    <div class="news__item">
-                        <img src="#" alt="" class="news__image">
-                        <time class="news__time" datetime="2019-12-01">Декабрь 2019</time>
-                        <h3 class="news__header">Дешевые путевки на Новый Год</h3>
-                        <p class="news__description">Проведи новый год в Тайланде</p>
-                    </div>
-                    <div class="news__item">
-                        <img src="#" alt="" class="news__image">
-                        <time class="news__time" datetime="2019-12-01">Декабрь 2019</time>
-                        <h3 class="news__header">Акция для серфингистов!</h3>
-                        <p class="news__description">В сезон больших волн скидка на путевку в Тайланд на островсерфенгистов. Удачного пути!</p>
-                    </div>
+                    <a href="#" class="news__link">
+                        <div class="news__item">
+                            <img src="img/placeholder.png" alt="" class="news__image">
+                            <time class="news__time" datetime="2019-12-01">Декабрь 2019</time>
+                            <h3 class="news__header">Дешевые путевки на Новый Год</h3>
+                            <p class="news__description">Проведи новый год в Тайланде</p>
+                        </div>
+                    </a>
+                    <a href="#" class="news__link">
+                        <div class="news__item">
+                            <img src="img/placeholder.png" alt="" class="news__image">
+                            <time class="news__time" datetime="2019-12-01">Декабрь 2019</time>
+                            <h3 class="news__header">Акция для серфингистов!</h3>
+                            <p class="news__description">В сезон больших волн скидка на путевку в Тайланд на островсерфенгистов. Удачного пути!</p>
+                        </div> 
+                    </a>
                 </div>
                 <div class="paginator">
                     <span class="paginator__text">Страница 1 из 7</span>
@@ -162,7 +166,7 @@
                 </ul>
                 <div class="call">
                     <p class="call__text">Бесплатный звонок по России</p>
-                    <a href="tel:88007003030" class="call__link">8 800 700 30 30</a>
+                    <a href="tel:88007003030" class="phone">8 800 700 30 30</a>
                 </div>
             </div>
         </footer>
