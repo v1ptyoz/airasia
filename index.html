@@ -28,26 +28,25 @@
                 <div class="shedule">
                     <a href="#" class="shedule__link" title="Открыть график работы">График работы</a>
                     <div class="shedule__content">
-                    <p class="shedule__text"><strong>пн-вс: 09:00 - 20:00</strong></p>
-                    <p class="shedule__text">Обед: 14:00 - 14:30</p>
-                </div>
+                        <p class="shedule__text"><strong>пн-вс: 09:00 - 20:00</strong></p>
+                        <p class="shedule__text">Обед: 14:00 - 14:30</p>
+                    </div>
                 </div>
             </nav>
         </header>
         <!-- header -->
 
-        <section class="section hero">
-            <h1 class="hero__title">Авторские туры по Азии</h1>
-            <p class="hero__subtitle">Открой для себя Азию</p>
-            <a href="#" class="btn">Подробнее</a>
-        </section>
-        <!-- hero section -->
-
         <main class="main">
+            <section class="section hero">
+                <h1 class="hero__title">Авторские туры по Азии</h1>
+                <p class="hero__subtitle">Открой для себя Азию</p>
+                <a href="#" class="btn">Подробнее</a>
+            </section>
+            <!-- hero section -->
             <section class="section hot-tours">
                 <h2 class="section__title">Горящие туры</h2>
                 <div class="tours">
-                    <div class="tour">
+                    <div class="tours__item tour">
                         <img src="img/placeholder.png" alt="Tour background image" class="tour__img">
                         <h3 class="tour__name">Тайланд</h3>
                         <div class="tour__options">
@@ -59,7 +58,7 @@
                         </p>
                         <a href="#" class="btn btn--small btn--outline">Смотреть</a>
                     </div>
-                    <div class="tour">
+                    <div class="tours__item tour">
                         <img src="img/placeholder.png" alt="Tour background image" class="tour__img">
                         <h3 class="tour__name">Бали</h3>
                         <div class="tour__options">
@@ -71,7 +70,7 @@
                         </p>
                         <a href="#" class="btn btn--small btn--outline">Смотреть</a>
                     </div>
-                    <div class="tour">
+                    <div class="tours__item tour">
                         <img src="img/placeholder.png" alt="Tour background image" class="tour__img">
                         <h3 class="tour__name">Индонезия</h3>
                         <div class="tour__options">
@@ -148,29 +147,31 @@
                 </ul>
                 <ul class="social">
                     <li class="social__item">
-                        <a href="#" class="social__link" title="Канал в Телеграм">
+                        <a href="#" class="social__link" aria-label="Канал в Телеграм" title="Канал в Телеграм">
                             <img src="img/telegram.png" alt="Telegram">
                         </a>
                     </li>
                     <li class="social__item">
-                        <a href="#" class="social__link" title="Группа ВКонтакте">
+                        <a href="#" class="social__link" aria-label="Группа ВКонтакте" title="Группа ВКонтакте">
                             <img src="img/vk.png" alt="VK" >
                         </a>
                     </li>
                     <li class="social__item">
-                        <a href="#" class="social__link" title="Страничка в Facebook">
+                        <a href="#" class="social__link" aria-label="Страничка в Facebook" title="Страничка в Facebook">
                             <img src="img/fb.png" alt="Facebook">
                         </a>
                     </li>
                     <li class="social__item">
-                        <a href="#" class="social__link" title="Аккаунт в Instagram">
+                        <a href="#" class="social__link" aria-label="Аккаунт в Instagram" title="Аккаунт в Instagram">
                             <img src="img/ig.png" alt="Instagram">
                         </a>
                     </li>
                 </ul>
                 <div class="call">
                     <p class="call__text">Бесплатный звонок по России</p>
-                    <a href="tel:88007003030" class="phone" title="Позвоните нам">8 800 700 30 30</a>
+                    <address class="address">
+                        <a href="tel:88007003030" class="phone" title="Позвоните нам">8 800 700 30 30</a>  
+                    </address>
                 </div>
             </div>
         </footer>
