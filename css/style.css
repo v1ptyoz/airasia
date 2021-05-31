@@ -9,9 +9,10 @@
 }
 .wrapper {
     background-color: #001821;
- }
-.wrapper__content { }
-.header { }
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-position-x: -250px;
+}
 .container {
     width: 1140px;
     margin: 0 auto;
