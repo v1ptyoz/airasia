@@ -291,34 +291,48 @@
 }
 .about {
     position: relative;
-    padding-bottom: 102px;
-}
-.about__right-bg {
-    position: absolute;
-    top: 97px;
-    right: 0;
-    
-}
-.about__left-bg,
-.about__right-bg {
-    border-radius: 5px;
+    padding-bottom: 55px;
 }
 .about__content {
-    width: 500px;
+    background-image: url("../img/about_us_2.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    border-radius: 5px;
+    width: 785px;
+    margin-left: auto;
+    padding-top: 70px;
+    padding-left: 81px;
+    padding-right: 202px;
+    padding-bottom: 93px;
+    position: relative;
+    z-index: 10;
+}
+.about::before {
+    display: block;
+    width: 490px;
+    height: 505px;
+    content: "";
+    background-image: url("../img/about_us_1.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    border-radius: 5px;
     position: absolute;
-    right: 200px;
-    top: 175px;
+    top: -97px;
+    left: 0;
+    z-index: 5;
 }
 .section__title--black {
     color: #000;
+    font-size: 36px;
     padding-bottom: 37px;
+    line-height: 49px;
 }
 .about__text {
     color: #060606;
     line-height: 27px;
     padding-bottom: 43px;
+    font-size: 16px;
 }
-.footer { }
 .footer__container {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     display: flex;
