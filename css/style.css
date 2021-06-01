@@ -66,15 +66,16 @@
 .shedule__link:hover {
     color: #fff;
 }
-.shedule__link:hover + .shedule__content {
+.shedule__link:hover + .shedule__content { 
+    transition: 0.5s;
     display: inline-block;
+    opacity: 0.8;
 }
 .shedule__content {
-    display: none;
     text-align: left;
     padding: 20px 18px;
     background-color: #EDEDED;
-    opacity: 0.8;
+    opacity: 0;
     border-radius: 5px;
 }
 .shedule__content::before {
