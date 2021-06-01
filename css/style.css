@@ -20,7 +20,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 29px;
+    padding-top: 42px;
 }
 .nav { 
     margin-right: auto;
@@ -97,7 +97,7 @@
     font-weight: 700;
 }
 .main__container {
-    padding-top: 135px;
+    padding-top: 125px;
 }
 .hero {
     padding-bottom: 246px;
@@ -106,7 +106,7 @@
     color: #ffffff;
     font-size: 72px;
     font-weight: bold;
-    padding-right: 535px;
+    padding-right: 556px;
     padding-bottom: 27px;
 }
 .hero__subtitle {
@@ -129,7 +129,7 @@
     background-color: #DA0100;
 }
 .hot-tours {
-    padding-bottom: 147px;
+    padding-bottom: 128px;
 }
 .section__title {
     color: #ffffff;
@@ -178,15 +178,17 @@
     line-height: 1.375em;
 }
 .tour__options {
+    padding-left: 5px;
     padding-top: 21px;
-    padding-bottom: 25px;
+    padding-bottom: 23px;
     font-size: 16px;
     line-height: 1.31em;
     color: #666666;
 }
 .tour__option {
     padding-left: 10px;
-    padding-right: 28px;
+    padding-right: 17px;
+    font-size: 16px;
 }
 .tour__option--night,
 .tour__option--food {
@@ -206,6 +208,8 @@
 .tour__description {
     color: #303030;
     padding-bottom: 24px;
+    font-size: 14px;
+    line-height: 1.5em;
 }
 .btn--small { 
     padding: 18px 30px;
@@ -223,13 +227,13 @@
     border: 1px solid #F5170E;
 }
 .news {
-    padding-bottom: 250px;
+    padding-bottom: 244px;
 }
 .news-list { 
     display: flex;
     justify-content: space-between;
     list-style: none;
-    padding-bottom: 53px;
+    padding-bottom: 47px;
 }
 .news__link { 
     position: relative;
@@ -253,14 +257,19 @@
     font-size: 24px;
     line-height: 1.5em;
     font-weight: bold;
+    padding-bottom: 2px;
 }
 .news__description { 
     font-size: 16px;
     line-height: 1.5em;
     position: absolute;
-    padding-left: 30px;
+    padding-left: 28px;
     width: 557px;
     top: 250px;
+}
+.news__text {
+    font-size: 16px;
+    line-height: 1.5em;
 }
 .paginator { 
     display: flex;
@@ -290,7 +299,7 @@
 }
 .about {
     position: relative;
-    padding-bottom: 55px;
+    padding-bottom: 30px;
 }
 .about__content {
     background-image: url("../img/about_us_2.png");
@@ -301,7 +310,7 @@
     margin-left: auto;
     padding-top: 70px;
     padding-left: 81px;
-    padding-right: 202px;
+    padding-right: 203px;
     padding-bottom: 93px;
     position: relative;
     z-index: 10;
@@ -328,7 +337,7 @@
 }
 .about__text {
     color: #060606;
-    line-height: 1.68em;
+    line-height: 1.7em;
     padding-bottom: 43px;
     font-size: 16px;
 }
@@ -337,14 +346,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 46px;
+    padding-top: 43px;
     padding-bottom: 65px;
 }
 .social { 
     list-style: none;
     display: flex;
     justify-content: space-between;
-    margin-right: 75px;
+    margin-right: 64px;
 }
 .social__item { 
     margin-right: 10px;
