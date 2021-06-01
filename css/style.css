@@ -91,12 +91,11 @@
 }
 .shedule__text { 
     color: #1E1F20;
-    font-weight: 00;
+    font-weight: 600;
 }
 .shedule__text--bold {
     font-weight: 700;
 }
-.main { }
 .main__container {
     padding-top: 135px;
 }
