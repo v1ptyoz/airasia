@@ -59,9 +59,12 @@
     display: inline-block;
     font-size: 13px;
     line-height: 20px;
-    color: #fff;
+    color: #98A4A8;
     text-decoration: underline;
     margin-bottom: 10px;
+}
+.shedule__link:hover {
+    color: #fff;
 }
 .shedule__link:hover + .shedule__content {
     display: inline-block;
