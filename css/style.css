@@ -121,6 +121,10 @@
     background-color: #F5170E;
     border-radius: 35px;
     color: #ffffff;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .btn:hover {
     background-color: #DA0100;
