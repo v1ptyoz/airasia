@@ -10,7 +10,8 @@
     background-color: #001821;
     background-image: url('../img/bg.jpg');
     background-repeat: no-repeat;
-    background-position-x: -250px;
+    background-position: center;
+    background-size: cover;
 }
 .container {
     width: 1140px;
