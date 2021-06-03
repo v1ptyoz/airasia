@@ -322,13 +322,14 @@
     background-image: url("../img/about_us_2.png");
     background-repeat: no-repeat;
     background-position: 0 0;
+    background-size: cover;
     border-radius: 5px;
     width: 785px;
     margin-left: auto;
     padding-top: 70px;
     padding-left: 81px;
     padding-right: 203px;
-    padding-bottom: 93px;
+    padding-bottom: 71px;
     position: relative;
     z-index: 10;
 }
