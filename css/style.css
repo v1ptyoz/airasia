@@ -154,18 +154,21 @@
 }
 .tours { 
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     list-style: none;
 }
 .tours__item {
     width: 362px;
     list-style: none;
+    margin-right: 27px;
+}
+.tours__item:last-child {
+    margin-right: 0;
 }
 .tour {
     display: flex;
     flex-direction: column;
     justify-content: start;
-
 }
 .tour__content { 
     background-color: #fff;
@@ -175,6 +178,10 @@
     padding-left: 22px;
     padding-right: 16px;
     padding-bottom: 26px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .tour__img { 
     border-radius: 5px 5px 0px 0px;
@@ -219,6 +226,9 @@
 }
 .btn--small { 
     padding: 18px 30px;
+}
+.tour__content .btn--outline {
+    margin-top: auto;
 }
 .btn--outline {
     background-color: #fff;
