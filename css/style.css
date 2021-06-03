@@ -38,6 +38,10 @@
 .main-nav__link { 
     color: #ffffff;
 }
+.main-nav__link--active {
+    color: #DA0100;
+
+}
 .main-nav__link:hover { 
     color: #DA0100;
 }
