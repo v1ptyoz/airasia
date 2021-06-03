@@ -105,20 +105,20 @@
     padding-top: 125px;
 }
 .hero {
-    padding-bottom: 246px;
+    margin-bottom: 246px;
 }
 .hero__title {
     color: #ffffff;
     font-size: 72px;
     font-weight: bold;
     padding-right: 556px;
-    padding-bottom: 27px;
+    margin-bottom: 27px;
     line-height: 1.36em;
 }
 .hero__subtitle {
     color: #ffffff;
     font-size: 18px;
-    padding-bottom: 33px;
+    margin-bottom: 33px;
 }
 .btn { 
     display: inline-block;
@@ -135,13 +135,13 @@
     background-color: #DA0100;
 }
 .hot-tours {
-    padding-bottom: 128px;
+    margin-bottom: 128px;
 }
 .section__title {
     color: #ffffff;
     font-size: 36px;
     font-weight: bold;
-    padding-bottom: 51px;
+    margin-bottom: 51px;
 }
 .section__title--fire::after {
     display: inline-block;
@@ -182,11 +182,11 @@
 .tour__name { 
     font-size: 24px;
     line-height: 1.375em;
+    margin-bottom: 21px;
 }
 .tour__options {
     padding-left: 5px;
-    padding-top: 21px;
-    padding-bottom: 23px;
+    margin-bottom: 23px;
     font-size: 16px;
     line-height: 1.31em;
     color: #666666;
@@ -213,7 +213,7 @@
 }
 .tour__description {
     color: #303030;
-    padding-bottom: 24px;
+    margin-bottom: 24px;
     font-size: 14px;
     line-height: 1.5em;
 }
@@ -233,13 +233,13 @@
     border: 1px solid #F5170E;
 }
 .news {
-    padding-bottom: 244px;
+    margin-bottom: 244px;
 }
 .news-list { 
     display: flex;
     justify-content: space-between;
     list-style: none;
-    padding-bottom: 47px;
+    margin-bottom: 47px;
 }
 .news__link { 
     position: relative;
@@ -305,7 +305,7 @@
 }
 .about {
     position: relative;
-    padding-bottom: 30px;
+    margin-bottom: 52px;
 }
 .about__content {
     background-image: url("../img/about_us_2.png");
