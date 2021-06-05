@@ -613,6 +613,7 @@
 /* input:checked */
 .form__options > input {
     appearance: none;
+    -webkit-appearance: none;
 }
 input:checked + .form__option {
     background-color: #B9EAE4;
