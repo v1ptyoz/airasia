@@ -484,13 +484,17 @@
     flex-direction: column;
     flex-wrap: wrap;
 }
+.review__tours {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
 .review__tour {
     color: #303030;
     padding: 10px 18px;
     background-color: #B9EAE4;
     border-radius: 35px;
-    display: inline-block;
-    margin-right: auto;
+    margin-bottom: 5px;
 }
 .review__content { 
 }
@@ -499,7 +503,7 @@
     font-size: 30px;
     line-height: 1.4em;
     margin-bottom: 13px;
-    padding-right: 50px;
+    padding-right: 26px;
 }
 .review__text { 
     color: #818181;
