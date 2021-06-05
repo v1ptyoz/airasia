@@ -367,8 +367,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 43px;
-    padding-bottom: 65px;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 .social { 
     list-style: none;
