@@ -603,15 +603,16 @@
     flex-wrap: nowrap;
 }
 .form__text {
-
+    flex-shrink: 0;
 }
 .form__content {
     font-size: 18px;
+    margin-right: 73px;
 }
 .form__options { 
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: flex-start;
     margin-bottom: 32px;
 }
 .form__option { 
