@@ -420,6 +420,7 @@
     display: block;
     top: 0;
     left: 0;
+    background: -webkit-linear-gradient(239deg, white, transparent);
     background: linear-gradient(239deg, white, transparent)
 }
 
