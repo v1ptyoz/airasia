@@ -578,9 +578,11 @@
     line-height: 1.35em;
 }
 .form { 
-    background-color: #F4F5F5;
     padding-top: 62px;
     padding-bottom: 96px;
+}
+.section--gray {
+    background-color: #F4F5F5;
 }
 .form-container { 
 }
