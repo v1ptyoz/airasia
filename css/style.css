@@ -347,6 +347,16 @@
     position: relative;
     z-index: 10;
 }
+.about__content::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    background: linear-gradient(239deg, white, transparent)
+}
 .about::before {
     display: block;
     width: 490px;
@@ -366,12 +376,20 @@
     font-size: 36px;
     padding-bottom: 37px;
     line-height: 1.36em;
+    position: relative;
+    z-index: 1;
 }
 .about__text {
     color: #060606;
     line-height: 1.7em;
     padding-bottom: 43px;
     font-size: 16px;
+    position: relative;
+    z-index: 1;
+}
+.about__btn {
+    position: relative;
+    z-index: 1;
 }
 .footer {
     background-color: #001821;
