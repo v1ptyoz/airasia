@@ -1,0 +1,35 @@
+.section__title {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 51px;
+}
+
+.section__title--fire::after {
+    display: inline-block;
+    content: '';
+    background-image: url('../img/flame.png');
+    background-repeat: no-repeat;
+    width: 31px;
+    height: 28px;
+    margin-left: 12px;
+}
+
+.section__title--black {
+    color: #000;
+    font-size: 36px;
+    padding-bottom: 37px;
+    line-height: 1.36em;
+    position: relative;
+    z-index: 1;
+}
+
+.section__title--bigger {
+    margin-bottom: 0;
+    font-size: 48px;
+    line-height: 1.35em;
+}
+
+.section--gray {
+    background-color: #F4F5F5;
+}

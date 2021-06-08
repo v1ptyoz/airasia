@@ -1,0 +1,18 @@
+.social {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 64px;
+}
+
+.social__item {
+    margin-right: 10px;
+}
+
+.social__link {
+    opacity: 0.5;
+}
+
+.social__link:hover {
+    opacity: 1;
+}

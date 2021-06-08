@@ -1,0 +1,9 @@
+.services__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.services__item {
+    margin-bottom: 50px;
+}

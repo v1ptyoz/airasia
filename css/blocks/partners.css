@@ -1,0 +1,21 @@
+.partners__header {
+    font-size: 48px;
+    line-height: 1.42em;
+    margin-bottom: 80px;
+}
+
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+}
+
+.partners__item {
+    margin-right: 56px;
+    margin-bottom: 88px;
+}
+
+.partners__item:last-child {
+    margin-bottom: 117px;
+}

@@ -1,0 +1,13 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 42px;
+}
+
+.header--bg {
+    background-image: url("../../img/headline.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 98px;
+}

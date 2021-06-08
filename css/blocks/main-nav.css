@@ -1,0 +1,21 @@
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.main-nav__item {
+    margin-right: 54px;
+}
+
+.main-nav__link {
+    color: #ffffff;
+}
+
+.main-nav__link--active {
+    color: #DA0100;
+}
+
+.main-nav__link:hover {
+    color: #DA0100;
+}

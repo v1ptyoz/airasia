@@ -1,0 +1,15 @@
+.address {
+    font-style: normal;
+}
+
+.address__phone {
+    color: #ffffff;
+    font-size: 26px;
+}
+
+.address__text {
+    font-size: 11px;
+    line-height: 1.81em;
+    color: #9A9A9A;
+    text-align: right;
+}

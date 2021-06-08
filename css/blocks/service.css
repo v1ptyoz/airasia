@@ -1,0 +1,26 @@
+.service {
+    display: flex;
+}
+
+.service__img {
+    border-radius: 5px;
+    margin-right: 56px;
+}
+
+.service__content {
+    padding: 10px 0px 15px;
+}
+
+.service__header {
+    font-size: 36px;
+    line-height: 1.42em;
+    font-weight: bold;
+    margin-bottom: 28px;
+}
+
+.service__text {
+    color: #303030;
+    font-size: 16px;
+    line-height: 1.68em;
+    margin-bottom: 34px;
+}

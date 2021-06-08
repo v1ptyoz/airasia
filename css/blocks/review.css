@@ -1,0 +1,71 @@
+.review {
+    display: flex;
+    flex-direction: column;
+}
+
+.review__header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 27px
+}
+
+.review__photo {
+    border-radius: 50%;
+    margin-right: 22px;
+}
+
+.review__link {
+    color: #1A1B1E;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.75em;
+    margin-bottom: 5px;
+}
+
+.review__link:hover {
+    color: #2E77A4;
+    text-decoration: underline;
+}
+
+.review__author {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.review__tours {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.review__tour {
+    color: #303030;
+    padding: 10px 18px;
+    background-color: #B9EAE4;
+    border-radius: 35px;
+    margin-bottom: 5px;
+}
+
+.review__title {
+    color: #1A1B1E;
+    font-size: 30px;
+    line-height: 1.4em;
+    margin-bottom: 13px;
+    padding-right: 26px;
+}
+
+.review__text {
+    color: #818181;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-bottom: 48px;
+}
+
+.review__datestamp {
+    color: #1A1B1E;
+    font-size: 14px;
+    line-height: 1.9em;
+    margin-bottom: auto;
+}

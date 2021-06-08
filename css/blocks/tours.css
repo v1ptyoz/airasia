@@ -1,0 +1,15 @@
+.tours {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.tours__item {
+    width: 362px;
+    list-style: none;
+    margin-right: 27px;
+}
+
+.tours__item:last-child {
+    margin-right: 0;
+}
