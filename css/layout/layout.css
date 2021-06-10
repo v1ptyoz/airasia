@@ -9,14 +9,13 @@
 }
 
 .wrapper {
-    background-repeat: no-repeat;
-    background-position: center;
+    /* background-repeat: no-repeat;
+    background-position: center; */
     background-size: cover;
 }
 
 .wrapper--main {
-    background-color: #001821;
-    background-image: url('../../img/bg.jpg');
+    background: url('../../img/bg_1.jpg') center top no-repeat, #001821 url('../../img/bg_2.jpg') center bottom 250px no-repeat;
 }
 
 .container {
