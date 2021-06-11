@@ -35,3 +35,8 @@
 .partners__container {
     padding-top: 88px;
 }
+
+.wrapper--hello {
+    background-image: url("../../img/hello_bg.jpg");
+    background-position: center center;
+}
