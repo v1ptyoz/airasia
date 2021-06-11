@@ -36,6 +36,7 @@
 }
 
 .paginator__link--active-red,
+.paginator__link--active-red:hover,
 .paginator__link--black:hover {
     background-color: #F5170E;
     color: #fff;
