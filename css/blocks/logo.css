@@ -1,0 +1,35 @@
+.logo {
+    position: relative;
+    width: 279px;
+    height: 119px;
+    margin-bottom: 52px;
+}
+
+.logo>img {
+    position: relative;
+    z-index: 10;
+    animation: 1s linear slideInFromLeft;
+}
+
+.logo::before {
+    content: "";
+    display: inline-block;
+    background-image: url("../../img/shades.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-width: 591px;
+    min-height: 248px;
+    position: absolute;
+    top: -50px;
+    left: -50%;
+    z-index: 1;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-1000px)
+    }
+    100% {
+        transform: translateX(0)
+    }
+}
