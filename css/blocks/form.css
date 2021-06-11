@@ -106,3 +106,13 @@ input:checked+.form__option {
 .form__button--gray:hover {
     background-color: #2B2B2B;
 }
+
+input:focus+.form__option {
+    outline: 1px solid #00ffe1;
+    -moz-outline-radius: 5px;
+}
+
+.form__button:focus {
+    outline: 1px solid #F5170E;
+    -moz-outline-radius: 5px;
+}
