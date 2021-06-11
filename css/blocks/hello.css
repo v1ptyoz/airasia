@@ -1,0 +1,40 @@
+.hello {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.hello__text {
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    animation: 1s linear slideInFromRight;
+}
+
+.hello .btn {
+    animation: 1s linear slideInFromBottom;
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(1000px)
+    }
+    100% {
+        transform: translateX(0)
+    }
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(-1000px)
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
