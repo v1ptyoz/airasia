@@ -7,3 +7,7 @@
 .services__item {
     margin-bottom: 50px;
 }
+
+.services__item:hover {
+    background-color: #f4f5f5;
+}
