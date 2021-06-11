@@ -1,5 +1,7 @@
 @import url("../css/layout/layout.css");
 @import url("../css/layout/normalize.css");
+@import url("../css/blocks/hello.css");
+@import url("../css/blocks/logo.css");
 @import url("../css/blocks/header.css");
 @import url("../css/blocks/nav.css");
 @import url("../css/blocks/main-nav.css");
