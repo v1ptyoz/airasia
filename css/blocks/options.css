@@ -1,0 +1,30 @@
+.options__list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.options__item {
+    margin-right: 17px;
+}
+
+.options__item::before {
+    content: '';
+    display: inline-block;
+    width: 36px;
+    height: 26px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.options__item--night::before {
+    width: 26px;
+    background-image: url("../../img/calendar.svg");
+    background-repeat: no-repeat;
+}
+
+.options__item--meal::before {
+    background-image: url("../../img/meal.svg");
+    background-repeat: no-repeat;
+}

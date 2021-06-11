@@ -39,30 +39,6 @@
     color: #666666;
 }
 
-.tour__option {
-    padding-left: 10px;
-    padding-right: 17px;
-    font-size: 16px;
-}
-
-.tour__option--night,
-.tour__option--food {
-    display: inline-block;
-    width: 36px;
-    height: 26px;
-    background-repeat: no-repeat;
-    vertical-align: middle;
-}
-
-.tour__option--night {
-    width: 26px;
-    background-image: url("../../img/calendar.svg");
-}
-
-.tour__option--food {
-    background-image: url("../../img/meal.svg");
-}
-
 .tour__description {
     color: #303030;
     margin-bottom: 24px;
