@@ -81,6 +81,7 @@
 .form__options>input {
     appearance: none;
     -webkit-appearance: none;
+    outline: none;
 }
 
 input:checked+.form__option {
@@ -113,6 +114,5 @@ input:focus+.form__option {
 }
 
 .form__button:focus {
-    outline: 1px solid #F5170E;
-    -moz-outline-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
